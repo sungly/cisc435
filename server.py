@@ -61,7 +61,7 @@ class Server:
 
                 self.clients.push(request_data["client"])
             else:
-                print("handle shit here")
+                print("handle error here")
 
         client.close()
 
